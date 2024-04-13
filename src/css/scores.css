@@ -39,3 +39,26 @@ main.scores .btn:hover {
     background-color: var(--btn-bg-color);
     cursor: pointer;
 }
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .buttons .btn {
+        font-size: 0.8rem;
+        padding: 5px 0;
+        text-align: center;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 425px) {
+    .scores-container,
+    .scores .buttons {
+        width: 75%;
+    }
+
+    .buttons .btn {
+        width: 45%;
+    }
+}

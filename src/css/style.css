@@ -62,7 +62,8 @@ main {
 .container {
     display: flex;
     width: 900px;
-    background: var(--main-container-color) /* cssgradient.io */
+    background: var(--main-container-color)
+        /* cssgradient.io */
 }
 
 .container .left-side,
@@ -145,55 +146,77 @@ main {
 
 /* Responsive */
 
-@media (max-width: 768px) {
-    .question {
-        font-size: 1.5rem;
+/* Responsive */
+
+@media (max-width: 1024px) {
+    main {
+        min-height: 50vh;
     }
 
-    .option {
-        font-size: 1.2rem;
+    .container {
+        width: 800px;
+    }
+
+    .left-side .left-side-header h3 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 620px;
+    }
+
+    .left-side .left-side-header h3 {
+        font-size: 1.8rem;
+    }
+
+    .left-side .info p {
+        font-size: 1rem;
+    }
+
+    .right-side a {
+        font-size: .8rem;
+        padding: 10px;
+        margin-top: 30px;
     }
 }
 
 @media (max-width: 425px) {
-    header .logo {
-        font-size: 1.5rem;
-        letter-spacing: 3px;
+    header {
+        padding: 40px;
+        text-align: center;
     }
 
-    .quiz-title {
-        font-size: .9rem;
-        letter-spacing: 3px;
+    .container {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px; 
     }
 
-    .questionArea {
-        width: 80%;
-        padding: 10px;
-    }
-
-    .question {
-        font-size: 1.25rem;
-    }
-
-    .option,
-    .option span {
-        font-size: 1rem
-    }
-
-    .scoreArea {
-        margin: 0 50px;
-        width: 80%;
-    }
-
-    .scoreText1,
-    .scorePct {
+    .left-side .left-side-header h2 {
         font-size: 1.2rem;
     }
 
-    .scoreArea button,
-    .scoreArea a,
-    .saveForm input {
-        font-size: .8rem;
+    .left-side .left-side-header h3 {
+        font-size: 1.5rem;
     }
 
+    .container .left-side,
+    .container .right-side {
+        width: 90%;
+        padding: 10px 30px;
+    }
+
+    .left-side .info p {
+        font-size: 0.8rem;
+    }
+
+    .menu-aside {
+        width: 50px;
+    }
+
+    .menu-aside .icon {
+        width: 25px;
+    }
 }

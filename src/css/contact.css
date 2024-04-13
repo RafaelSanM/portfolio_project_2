@@ -54,3 +54,16 @@ label {
     background-color: var(--btn-bg-color);
     cursor: pointer;
 }
+
+/* Responsive */
+
+@media (max-width: 425px) {
+    .container-contact {
+        width: 75%;
+    }
+
+    label,
+    .btn {
+        font-size: .9rem;
+    }
+}

@@ -139,3 +139,56 @@ header {
     background-color: var(--btn-bg-color);
     color: var(--text-color);
 }
+
+@media (max-width: 768px) {
+    .question {
+        font-size: 1.5rem;
+    }
+
+    .option {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 425px) {
+    header .logo {
+        font-size: 1.5rem;
+        letter-spacing: 3px;
+    }
+
+    .quiz-title {
+        font-size: .9rem;
+        letter-spacing: 3px;
+    }
+
+    .questionArea {
+        width: 80%;
+        padding: 10px;
+    }
+
+    .question {
+        font-size: 1.25rem;
+    }
+
+    .option,
+    .option span {
+        font-size: 1rem
+    }
+
+    .scoreArea {
+        margin: 0 50px;
+        width: 80%;
+    }
+
+    .scoreText1,
+    .scorePct {
+        font-size: 1.2rem;
+    }
+
+    .scoreArea button,
+    .scoreArea a,
+    .saveForm input {
+        font-size: .8rem;
+    }
+
+}
