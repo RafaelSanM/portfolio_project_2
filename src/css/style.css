@@ -64,3 +64,12 @@ main {
     width: 900px;
     background: var(--main-container-color) /* cssgradient.io */
 }
+
+.container .left-side,
+.container .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 40px 60px 40px 40px;
+}
