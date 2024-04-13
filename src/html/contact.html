@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Triad Quiz - Play your online quiz">
+    <meta name="keywords" content="Games, Quiz, Sports, History, Geography">
+    <meta name="author" content="Rafael Santilli Machado">
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="/src/css/style.css">
+    <link rel="stylesheet" href="/src/css/style_quiz.css">
+    <link rel="stylesheet" href="/src/css/contact.css">
+    <!-- Favicon -->
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    <title>Sports Quiz</title>
+</head>
+
+<body>
+    <header>
+        <a href="../../index.html">
+            <h2 class="logo">Triad Quiz</h2>
+        </a>
+        <h2 class="quiz-title">Contact</h2>
+    </header>
+
+    <main class="contact">
+        <div class="container-contact">
+            <div class="contact-form">
+                <form action="">
+                    <label for="name" class="form-label">Your name</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                    <label for="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                    <label for="message" class="form-label">Message</label>
+                    <textarea style="resize: none;" class="form-control" id="message" name="message"
+                        placeholder="Please leave your feedback or any suggestion..." rows="5" required></textarea>
+                    <div class="buttons">
+                        <input type="submit" id="btn" class="btn">
+                        <a href="../../index.html" class="btn">Home</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <aside class="menu-aside">
+            <ul>
+                <li>
+                    <a href="https://github.com/RafaelSanM" target="_blank">
+                        <img src="/src/images/github.svg" alt="GitHub icon" class="icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rafael-santilli-machado-738548251/" target="_blank">
+                        <img src="/src/images/linkedin-in.svg" alt="Linked-In icon" class="icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/contact.html">
+                        <img src="../images/envelope-regular.svg" alt="email icon" class="icon" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+
+    <script src="/src/js/sports_questions.js"></script>
+    <script src="/src/js/quiz.js"></script>
+</body>
+
+</html>
