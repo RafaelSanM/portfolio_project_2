@@ -73,3 +73,26 @@ main {
     width: 50%;
     padding: 40px 60px 40px 40px;
 }
+
+.left-side .left-side-header h2 {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.left-side .left-side-header h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+
+.left-side .info p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5em;
+    margin-top: 20px;
+    color: var(--text-color);
+}
