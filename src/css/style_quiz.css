@@ -1,0 +1,19 @@
+/* ----------- Quiz Styles ----------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.quiz-title {
+    color: var(--text-color);
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: 5px;
+}
+
+.main-quiz {
+    display: flex;
+    min-height: 50vh;
+    gap: 15px;
+}
