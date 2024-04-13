@@ -113,3 +113,32 @@ main {
     color: var(--text-color);
     background: var(--bg-color);
 }
+
+/* Aside */
+
+.menu-aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: fixed;
+    width: 80px;
+    top: 0;
+    right: 0;
+}
+
+.menu-aside ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu-aside .icon {
+    width: 30px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+}
+
+.menu-aside .icon:hover {
+    transform: scale(1.2);
+}
