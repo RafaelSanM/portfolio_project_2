@@ -21,5 +21,54 @@
         </a>
         <h2 class="quiz-title">Geography</h2>
     </header>
+
+    <main class="main-quiz">
+        <div class="progress">
+            <div class="progress--bar"></div>
+        </div>
+        
+        <div class="questionArea">
+            <div class="question">...</div>
+            <div class="options"></div>
+        </div>
+
+        <div class="scoreArea">
+            <div class="scoreText1">Congratulations!</div>
+            <div class="scorePct">Got it right: 99%</div>
+            <div class="scoreText2">You answered 9 questions and got 8 correct.</div>
+            <button>Try again</button>
+            <button class="saveButton">Save</button>
+            <a href="../../index.html">Try a different Quiz</a>
+            <a href="../html/scores.html">See score list</a>
+            
+            <div class="saveForm" style="display: none;">
+                <input type="text" class="nameInput" placeholder="Your name">
+                <button class="confirmSaveButton">Confirm</button>
+            </div>
+        </div>
+        
+        <aside class="menu-aside">
+            <ul>
+                <li>
+                    <a href="https://github.com/RafaelSanM" target="_blank">
+                        <img src="/src/images/github.svg" alt="GitHub icon" class="icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/rafael-santilli-machado-738548251/" target="_blank">
+                        <img src="/src/images/linkedin-in.svg" alt="Linked-In icon" class="icon" />
+                    </a>
+                </li>
+                <li>
+                    <a href="../html/contact.html">
+                        <img src="../images/envelope-regular.svg" alt="email icon" class="icon" />
+                    </a>
+                </li>
+            </ul>
+        </aside>
+    </main>
+
+    <script src="/src/js/geography_questions.js"></script>
+    <script src="/src/js/quiz.js"></script>
 </body>
 </html>
