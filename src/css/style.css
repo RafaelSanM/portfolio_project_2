@@ -49,3 +49,18 @@ header .logo {
     text-transform: uppercase;
     color: var(--text-color);
 }
+
+/* Main Style */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+}
+
+.container {
+    display: flex;
+    width: 900px;
+    background: var(--main-container-color) /* cssgradient.io */
+}
