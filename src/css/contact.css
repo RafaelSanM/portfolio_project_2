@@ -18,3 +18,39 @@ label {
     margin-top: 0.5rem;
     text-transform: uppercase;
 }
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--option-color);
+    background-clip: padding-box;
+    border: 1px solid var(--border-color);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    color: var(--option-color);
+    background-color: var(--scoreArea-bg-color);
+    width: 30%;
+}
+
+.btn:hover {
+    color: var(--text-color);
+    background-color: var(--btn-bg-color);
+    cursor: pointer;
+}
