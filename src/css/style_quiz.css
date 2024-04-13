@@ -97,14 +97,14 @@ header {
 
 .scorePct {
     color: #0d630d;
-    font-size: 30px;
+    font-size: 1.8rem;
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .scoreText2 {
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--option-color);
     margin-bottom: 10px;
 }

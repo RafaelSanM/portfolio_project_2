@@ -11,7 +11,6 @@
     --border-color: rgb(233, 235, 241);
 }
 
-
 /* Importing Google font - Inter - Lexenda Deca */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
@@ -35,7 +34,6 @@ ul {
 /* End Reset */
 
 body {
-    /* cssgradient.io */
     background: var(--bg-color);
 }
 
@@ -63,7 +61,6 @@ main {
     display: flex;
     width: 900px;
     background: var(--main-container-color)
-        /* cssgradient.io */
 }
 
 .container .left-side,
@@ -143,8 +140,6 @@ main {
 .menu-aside .icon:hover {
     transform: scale(1.2);
 }
-
-/* Responsive */
 
 /* Responsive */
 
