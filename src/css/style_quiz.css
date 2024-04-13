@@ -78,3 +78,64 @@ header {
 .option:hover {
     transform: scale(1.01);
 }
+
+.scoreArea {
+    flex-direction: column;
+    background-color: var(--scoreArea-bg-color);
+    padding: 30px;
+    margin: 15px;
+    text-align: center;
+    width: 500px;
+}
+
+.scoreText1 {
+    color: var(--option-color);
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.scorePct {
+    color: #0d630d;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.scoreText2 {
+    font-size: 16px;
+    color: var(--option-color);
+    margin-bottom: 10px;
+}
+
+.scoreArea button,
+.scoreArea a,
+.saveForm input {
+    border: 1px solid black;
+    background-color: var(--scoreArea-bg-color);
+    color: var(--option-color);
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem;
+}
+
+.saveForm input {
+    font-style: italic;
+    text-transform: none;
+}
+
+.scoreArea .saveForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.scoreArea button:hover,
+.scoreArea a:hover,
+.saveForm input:hover {
+    background-color: var(--btn-bg-color);
+    color: var(--text-color);
+}
