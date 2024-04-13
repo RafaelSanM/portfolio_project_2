@@ -96,3 +96,20 @@ main {
     margin-top: 20px;
     color: var(--text-color);
 }
+
+.right-side a {
+    padding: 15px;
+    margin-top: 30px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border: 1px solid var(--border-color);
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.right-side a:hover {
+    color: var(--text-color);
+    background: var(--bg-color);
+}
