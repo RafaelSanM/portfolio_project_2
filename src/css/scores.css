@@ -1,0 +1,41 @@
+main.scores {
+    display: flex;
+    flex-direction: column;
+}
+
+.scores-container {
+    background-color: var(--scoreArea-bg-color);
+    width: 50%;
+    height: 320px;
+    font-size: 1.5rem;
+    gap: 5px;
+    text-align: center;
+    padding: 15px;
+    border: 1px solid var(--border-color);
+}
+
+.scores .buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.buttons .btn {
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 1px solid var(--border-color);
+    transition: 0.3s ease-in-out;
+    text-transform: uppercase;
+    color: var(--option-color);
+    background-color: var(--scoreArea-bg-color);
+    width: 30%;
+}
+
+main.scores .btn:hover {
+    color: var(--text-color);
+    background-color: var(--btn-bg-color);
+    cursor: pointer;
+}
