@@ -177,16 +177,17 @@ main {
     }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 425px) {
     header {
         padding: 40px;
         text-align: center;
     }
 
     .container {
+        width: 600px;
         flex-direction: column;
         align-items: center;
-        padding: 30px; 
+        padding: 10px; 
     }
 
     .left-side .left-side-header h2 {
@@ -194,13 +195,13 @@ main {
     }
 
     .left-side .left-side-header h3 {
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .container .left-side,
     .container .right-side {
-        width: 90%;
-        padding: 10px 30px;
+        width: 100%;
+        padding: 15px 40px;
     }
 
     .left-side .info p {
@@ -208,10 +209,10 @@ main {
     }
 
     .menu-aside {
-        width: 50px;
+        width: 40px;
     }
 
     .menu-aside .icon {
-        width: 25px;
+        width: 22px;
     }
 }
