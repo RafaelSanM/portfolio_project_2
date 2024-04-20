@@ -2,27 +2,42 @@
 
 <h1>Introduction</h1> 
 
-Project milestone 1: HTML/CSS Essentials - Code Institute Full-Stack development program.
+Project milestone 2: HTML/CSS/JavaScript Essentials - Code Institute Full-Stack development program.
 
-This project is a Front End website for a Marketing agency. Essential for establishing a presence on the web, it works as a central hub for our services, projects and contacts. In addition to promoting visibility, the website is a powerful tool for attracting customers, conveying our expertise and building lasting relationships. It's the virtual gateway to exploring our innovative approach and winning new business opportunities.
+Triad Quiz is a quiz game that allows players to test their knowledge in different topics. In Triad Quiz there are 3 different quizzes available and it has 10 questions for each topic. If the user can answer the question correctly they will receive points. It is a good way to have fun and also to learn while playing a game.
 
-<a>[Easy marketing project page](https://rafaelsanm.github.io/portfolio_project_1/)</a>
+<a>[Triad Quiz project page](https://rafaelsanm.github.io/portfolio_project_2/)</a>
 
 ![](./src/images/images_read.me/responsive-img.png)
 
 <h2>User Experience </h2>
-- As a website devloper, I'd like to:
-  1. Develop a website that visually catches the user's attention and makes them intrigued to explore all the pages.
-  2. Develop an easy to navigate website.
-- As a first visitor, I'd like to:
-  1. Understand the main purpose of the site.
-  2. Be able to easily navigate the website and find relevant content about digital marketing services.
-  3. Be able to easily contact the company for more information.
+- As a website developer, I'd like to: <br> 
+  1. Develop an online quiz  that is visually appealing from the user’s first visit so they are intrigued to explore and play the game. <br>
+  2. Develop an easy to navigate quiz and game for its users to play. <br>
+  3. Develop a quiz that is both attractive and challenging for the user. <br>
+- As a first visitor, I'd like to: <br>
+  1. Be able to understand the main purpose of the game.
+  2. Be able to easily navigate throughout the game and choose a quiz to play.
+  3. Be able to see my results after playing the game. <br>
+- As a returning visitor, I want to:
+  1. Be able to find new quizzes when they are available.
+  2. Be able to check the Scores page.
+  3. Be able to challenge myself and improve on my scores.
 
   <h2>Design</h2>
   <h3>Website Structure</h3>
   
-Easy Marketing website is a six pages site: Home Page, About Page, Services Page, Projects Page, Contact Page and Thanks Page. The default loading page is the Home Page. The Home Page has 4 sections: (1) Hero, (2) Banner, (3) Hero-section, (4) Footer. The About Page has 3 sections: (1) Section About, (2) Team, (3) Footer. The Services Page has 2 sections: (1) Services (2) Footer. The Contact Page has 2 sections: (1) Contact Text (2) Form (3) Contact info (4) Footer. The Thanks Page has two sections: (1) 'Thanks' message and (2) Footer.
+The Quiz Land is a nine page website that has been designed to look like an application in small devices.
+
+Pages:
+
+Homepage
+Quiz Sports
+Quiz History
+Quiz Geography
+Game End
+Scores List
+Contact Page
 
 <h2>Colour Scheme</h2>
 
