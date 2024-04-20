@@ -125,18 +125,28 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
 
 <h2>How To Play</h2>
 
+<h2>Technologies Used</h2>
+
+<h3>Languages Used</h3>
+
+  - HTML
+  - CSS
+  - JAVASCRIPT
+
 <h3>Frameworks - Libraries - Programs Used</h3>
 
   - [Google Fonts:](https://fonts.google.com/)
-      Google fonts were used to import the 'Ubuntu' font throughout the style.css.
+      Google fonts were used to import the 'Inter' and 'Lexend Deca' font throughout the style.css.
   - [Git:](https://git-scm.com/)
       Git was used for version control by utilizing the Git Bash terminal to commit to Git and Push to GitHub.
   - [GitHub:](https://github.com/)
-      GitHub is used to store the project's code after being pushed from Git.
-  - [Pexels:](https://www.pexels.com/)
-      Pexels was used to get free images.
-  - [Animista:](https://animista.net/)
-      Animista was used to put some animation on the titles.
+      GitHub is used to store the project's code after being pushed from Git. 
+  - [CSS Gradient:](https://cssgradient.io/)
+      CSS Gradient was used get the pages background-color and home page container background-color.
+  - [Font Awesome:](https://fontawesome.com/)
+      Font Awesome are used as an icons for user UX purposes.
+  - [VS Code:](https://code.visualstudio.com/)
+      VSCode was used to create and edit the website.
 
 <h2>Testing</h2
              
@@ -144,6 +154,7 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
 
   - https://validator.w3.org/
   - https://jigsaw.w3.org/css-validator/
+  - https://jshint.com/
 
   Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
