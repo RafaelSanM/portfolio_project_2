@@ -141,13 +141,20 @@ main {
     transform: scale(1.2);
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    color: var(--text-color);
+    letter-spacing: 1px;
+    font-size: .9rem;
+}
+
 /* Responsive */
 
 @media (max-width: 1024px) {
-    main {
-        min-height: 50vh;
-    }
-
     .container {
         width: 800px;
     }
@@ -174,6 +181,11 @@ main {
         font-size: .8rem;
         padding: 10px;
         margin-top: 30px;
+    }
+
+    footer {
+        margin-top: 50px;
+        padding: 20px;
     }
 }
 
@@ -215,6 +227,10 @@ main {
     .menu-aside .icon {
         width: 22px;
     }
+
+    footer {
+        margin-top: 20px;
+    }
 }
 
 @media (max-width: 320px) {
@@ -230,5 +246,9 @@ main {
 
     .menu-aside .icon {
         width: 20px;
+    }
+
+    footer p {
+        font-size: 0.7rem;
     }
 }
