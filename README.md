@@ -27,7 +27,7 @@ Triad Quiz is a quiz game that allows players to test their knowledge in differe
   <h2>Design</h2>
   <h3>Website Structure</h3>
   
-The Quiz Land is a nine page website that has been designed to look like an application in small devices.
+The Quiz Land is a seven page website that has been designed to look like an application in small devices.
 
 Pages:
 
@@ -41,14 +41,14 @@ Contact Page <br>
 
 <h2>Colour Scheme</h2>
 
-   - main color yellow:#F6DD04;
+   <!-- - main color yellow:#F6DD04;
    - secundary color yellow: #FDE176;
    - body background color: rgba(255, 255, 255, 0.8);
    - form color: #fafafa;
    - main color black: rgba(0, 0, 0, 0.7);
    - header background color: #fff;
 
-There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yellow (#F6DD04), (3) a black (rgba(0, 0, 0, 0.7)). There are three secundary colours used: (1 ) yellow (#FDE176), (2) whhite (#fafafa), (3) a black (#fff). The white rgba(255, 255, 255, 0.8) is used for the main website background, the black and yellow is used for text. When the user hovers, the yellow (#F6DD04) is used for the button background. In the Footer Section I used a secundary color yellow (#FDE176).
+There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yellow (#F6DD04), (3) a black (rgba(0, 0, 0, 0.7)). There are three secundary colours used: (1 ) yellow (#FDE176), (2) whhite (#fafafa), (3) a black (#fff). The white rgba(255, 255, 255, 0.8) is used for the main website background, the black and yellow is used for text. When the user hovers, the yellow (#F6DD04) is used for the button background. In the Footer Section I used a secundary color yellow (#FDE176). -->
 
 <h2>Typography</h2>
 
@@ -105,7 +105,7 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
 
 <h3>Scores List</h3>
 
-![](./src/images/images_read.me/quiz-history.png)
+![](./src/images/images_read.me/scores-page.png)
 
   - On this page the user can see the score list. There are also 2 buttons on this page, one to reset the list and the other to return to the home page.
 
@@ -159,10 +159,10 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
   Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
   - Desktop results:
-  ![](./src/images/images_read.me/screenshot_desktop_testing.png)
+  ![](./src/images/images_read.me/desktop-ligthouse.png)
 
   - Mobile results:
-  ![](./src/images/images_read.me/screenshot_mobile_testing.png)  
+  ![](./src/images/images_read.me/mobile-ligthouse.png)  
 
 <h2>Functionality</h2>
 
@@ -172,17 +172,11 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
 
 - All social media links work correctly and open on a new tab.
 
-- All images load on each page as intended.
-
 - All the buttons are working correctly and bring the users to the function that they were built for.
-
-- The arrows inside the buttons in Landing Page, Thanks Page and Homepage banners, has a fully functional opacity animation.
-
-- The form leads to Thanks page and back to form when the 'go back' button is clicked
 
 <h2>Bugs</h2>  
 
-- No bugs happened.
+- No bugs to mention.
 
 <h2>Deployment</h2> 
 
@@ -208,11 +202,8 @@ Fork this project following the steps:
 
 <h2>Content</h2>
 
-  - All the text content is original.
+  - All the questions provided in the game were taken from Google.
 
- <h3>Images</h3> 
-
- - All images were taken from Pexels.
 
 
 
