@@ -225,6 +225,7 @@ main {
     .container .left-side,
     .container .right-side {
         padding: 15px;
+        max-width: 80%;
     }
 
     .menu-aside .icon {
