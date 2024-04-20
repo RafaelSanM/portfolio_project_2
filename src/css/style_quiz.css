@@ -14,7 +14,7 @@ header {
 
 .main-quiz {
     display: flex;
-    min-height: 50vh;
+    min-height: 75vh;
     gap: 15px;
 }
 
