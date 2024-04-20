@@ -5,8 +5,8 @@ main.scores {
 
 .scores-container {
     background-color: var(--scoreArea-bg-color);
-    width: 50%;
-    height: 320px;
+    width: 30%;
+    height: 220px;
     font-size: 1.5rem;
     gap: 5px;
     text-align: center;
@@ -16,8 +16,9 @@ main.scores {
 
 .scores .buttons {
     display: flex;
-    justify-content: space-between;
-    width: 50%;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
 }
 
 .buttons .btn {
