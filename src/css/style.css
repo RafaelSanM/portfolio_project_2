@@ -217,14 +217,17 @@ main {
     }
 }
 
-/* @media (max-width: 320px) {
+@media (max-width: 320px) {
+    .left-side .left-side-header h3 {
+        font-size: 1.4rem;
+    }
+
     .container .left-side,
     .container .right-side {
-        width: 100%;
-        padding: 15px 40px;
+        padding: 15px;
     }
 
     .menu-aside .icon {
         width: 20px;
     }
-} */
+}
