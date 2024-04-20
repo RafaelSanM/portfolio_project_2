@@ -13,17 +13,17 @@ Triad Quiz is a quiz game that allows players to test their knowledge in differe
 <h2>User Experience </h2>
 
 - As a website developer, I'd like to: <br> <br>
-  1. Develop an online quiz  that is visually appealing from the user’s first visit so they are intrigued to explore and play the game. <br>
-  2. Develop an easy to navigate quiz and game for its users to play. <br>
-  3. Develop a quiz that is both attractive and challenging for the user. <br> <br>
-- As a first visitor, I'd like to: <br> <br>
-  1. Be able to understand the main purpose of the game. <br>
-  2. Be able to easily navigate throughout the game and choose a quiz to play. <br>
-  3. Be able to see my results after playing the game. <br> <br>
-- As a returning visitor, I want to: <br> <br>
-  1. Be able to find new quizzes when they are available. <br>
-  2. Be able to check the Scores page. <br>
-  3. Be able to challenge myself and improve on my scores.
+  1- Develop an online quiz  that is visually appealing from the user’s first visit so they are intrigued to explore and play the game. <br>
+  2- Develop an easy to navigate quiz and game for its users to play. <br>
+  3- Develop a quiz that is both attractive and challenging for the user. <br> 
+- As a first visitor, I'd like to: <br> 
+  1- Be able to understand the main purpose of the game. <br>
+  2- Be able to easily navigate throughout the game and choose a quiz to play. <br>
+  3- Be able to see my results after playing the game. <br> 
+- As a returning visitor, I want to: <br>
+  1- Be able to find new quizzes when they are available. <br>
+  2- Be able to check the Scores page. <br>
+  3- Be able to challenge myself and improve on my scores.
 
   <h2>Design</h2>
   <h3>Website Structure</h3>
