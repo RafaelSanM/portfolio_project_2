@@ -16,12 +16,12 @@ Triad Quiz is a quiz game that allows players to test their knowledge in differe
   2. Develop an easy to navigate quiz and game for its users to play. <br>
   3. Develop a quiz that is both attractive and challenging for the user. <br>
 - As a first visitor, I'd like to: <br>
-  1. Be able to understand the main purpose of the game.
-  2. Be able to easily navigate throughout the game and choose a quiz to play.
+  1. Be able to understand the main purpose of the game. <br>
+  2. Be able to easily navigate throughout the game and choose a quiz to play. <br>
   3. Be able to see my results after playing the game. <br>
 - As a returning visitor, I want to:
-  1. Be able to find new quizzes when they are available.
-  2. Be able to check the Scores page.
+  1. Be able to find new quizzes when they are available. <br>
+  2. Be able to check the Scores page. <br>
   3. Be able to challenge myself and improve on my scores.
 
   <h2>Design</h2>
@@ -31,13 +31,13 @@ The Quiz Land is a nine page website that has been designed to look like an appl
 
 Pages:
 
-Homepage
-Quiz Sports
-Quiz History
-Quiz Geography
-Game End
-Scores List
-Contact Page
+Homepage <br>
+Quiz Sports <br>
+Quiz History <br>
+Quiz Geography <br>
+Game End <br>
+Scores List <br>
+Contact Page <br>
 
 <h2>Colour Scheme</h2>
 
@@ -52,65 +52,78 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
 
 <h2>Typography</h2>
 
-  - The Ubuntu, sans-serif is used as the main font for the whole website.
+  - The Inter, sans-serif is used as the main font for the website.
+  - Lexend Deca, sans-serif is used in the left-hand container information paragraph on the index page.
 
 <h2>Imagery</h2> 
-  - 1 background images in the Hero Section (Banner).
-  - 4 Images for the team leader in the About Section and # images for the team members. They are jpg and jpeg files.
-  - 4 images in the Services Section showing members working. They are jpg files.
-  - 7 images in the Projects Section showing some of our Projects.
+  - 3 Images were used for the aside menu.
+  - 1 image was used for the Favicon.
 
 <h2>Interactive Links</h2>
-  At the footer and , users can access the company social media links (Facebook, Twitter, Instagram and Youtube Channel). Once these icons are clicked they are opened in a new tab.
+  At the side menu of the Home page, users can access the social links (Github and Linked-in). Once these icons are clicked they open a new tab. Users can also click on an envelop image link that takes them to the contact page.
 
 <h1>Features</h1>
 <h3>Home Page</h3>
 
-![](./src/images/images_read.me/screenshot_desktop.png)
+![](./src/images/images_read.me/homepage-img.png)
   
-  - The Home Page is the first contact that users have with this website. It has a slogan and links that lead to the About Page, Services Page, Projects Page and Contact Page.
+  - When accessing the website, the user has access to the quizzes to start playing immediately. There is also a button to check the scoring area. In the side menu, the user will find three images that have links, first to Github, second to Linked-in and the third that will take them to the contact page. 
 
-<h3>About Section</h3>
+  <a>[Triad Quiz project page](https://rafaelsanm.github.io/portfolio_project_2/)</a>
 
-![](./src/images/images_read.me/screenshot_about_section.png)
+<h3>Home Page Mobile</h3>
 
-  - In this feature users have access to information about the company, for example the company's main purpose, the benefits of choosing Easy Marketing and they also know our leaders and our team.
+![](./src/images/images_read.me/mobile-page.png)
+
+<h3>Quiz Sports</h3>
+
+![](./src/images/images_read.me/quiz-sport.png)
+
+  - The entire game takes place in this feature. Here users will see the questions and have 4 answer options. The player will choose one and see if the answer given is right or wrong. The thematic questions in Quiz 1 are Sports.
+
+  <a>[Live Feature Here](https://rafaelsanm.github.io/portfolio_project_2/src/html/sports.html)</a>
+
+<h3>Quiz Sports Mobile</h3>
+
+![](./src/images/images_read.me/mobile-quiz-page.png)
+
+<h3>Quiz Geography</h3>
+
+![](./src/images/images_read.me/quiz-geography.png)
+
+  - This feature has the same purpose as Quiz 1 and Quiz 2 but here the topic questions are Georaphy.
+
+  <a>[Live Feature Here](https://rafaelsanm.github.io/portfolio_project_2/src/html/geography.html)</a>
   
-<h3>Services Section</h3>
+<h3>Quiz History</h3>
 
-![](./src/images/images_read.me/screenshot_services_section.png)
+![](./src/images/images_read.me/quiz-history.png)
 
-  - In this feature users have access to information about the companies services and a small explanation of how we work.
+  - This feature has the same purpose as Quiz 1 but here the topic questions are History.
 
-<h3>Projects Section</h3>
+  <a>[Live Feature Here](https://rafaelsanm.github.io/portfolio_project_2/src/html/history.html)</a>
 
-![](./src/images/images_read.me/screenshot_projects_section.png)
+<h3>Scores List</h3>
 
-  - In this feature users have access to some of our projects. there's 7 images of projects.
+![](./src/images/images_read.me/quiz-history.png)
 
-<h3>Contact Section</h3>
+  - On this page the user can see the score list. There are also 2 buttons on this page, one to reset the list and the other to return to the home page.
 
-![](/src/images/images_read.me/screenshot_contact_section.png)
+  <a>[Live Feature Here](https://rafaelsanm.github.io/portfolio_project_2/src/html/scores.html)</a>
 
-  - In this feature users have access to our contact details and a form that, when completed and submitted, takes them to the Thanks Page. 
+<h3>Game End Page</h3>
 
-<h3>Thanks Page Section</h3>
+![](./src/images/images_read.me/game-end-page.png)
 
-![](./src/images/images_read.me/screenshot_tkspage.png)
+  - On this final page of the game, the user will receive a message according to their score. There are also options to try again, save the game, try a different quiz or check the score list.
 
-  - Once the user successfully submits a contact form, they will be directed to the 'Thanks' Page. When the button is clicked it brings the users back to the contact form.
 
-<h3>Footer</h3>
+<h3>Progress Bar Right/Wrong Answers</h3>
 
-![](./src/images/images_read.me/screenshot_footer.png)
+  - When starting the quiz, a black bar appears at the top of the page that progressively increases until the user finishes the quiz.
+  - When the user gets an answer right, the background color turns green and when he gets it wrong, the background color turns red.
 
-  - Footer Section. Here users can see information about the company such adress, e-mail, phone and contact Easy Marketing through the social media links. The copyright message is also displayed.
-
-<h2>Technologies Used</h2>
-<h3>Languages Used</h3>
-
-  - HTML5
-  - CSS3
+<h2>How To Play</h2>
 
 <h3>Frameworks - Libraries - Programs Used</h3>
 
