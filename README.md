@@ -42,14 +42,9 @@ Contact Page <br>
 
 <h2>Colour Scheme</h2>
 
-   <!-- - main color yellow:#F6DD04;
-   - secundary color yellow: #FDE176;
-   - body background color: rgba(255, 255, 255, 0.8);
-   - form color: #fafafa;
-   - main color black: rgba(0, 0, 0, 0.7);
-   - header background color: #fff;
+![](./src/images/images_read.me/color-scheme.png)
 
-There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yellow (#F6DD04), (3) a black (rgba(0, 0, 0, 0.7)). There are three secundary colours used: (1 ) yellow (#FDE176), (2) whhite (#fafafa), (3) a black (#fff). The white rgba(255, 255, 255, 0.8) is used for the main website background, the black and yellow is used for text. When the user hovers, the yellow (#F6DD04) is used for the button background. In the Footer Section I used a secundary color yellow (#FDE176). -->
+The main color scheme I chose for this project is a two-tone blue. The left side of the screen is lighter and the tone changes to a darker blue towards the right side of the screen. I chose a black color for the main container and the same blue as the background color when the user hovers over the quiz links as an interactive color.
 
 <h2>Typography</h2>
 
