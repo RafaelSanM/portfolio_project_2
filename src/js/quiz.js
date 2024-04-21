@@ -147,6 +147,6 @@ function saveData() {
 
 function clearData() {
     localStorage.removeItem('savedData');
-    savedData = []; // Limpa a variável local também
-    document.getElementById('scoreList').innerHTML = ''; // Limpa a lista no HTML
+    savedData = []; // Clears the local variable
+    document.getElementById('scoreList').innerHTML = ''; // Clear the list in HTML
 }

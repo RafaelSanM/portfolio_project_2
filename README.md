@@ -12,7 +12,7 @@ Triad Quiz is a quiz game that allows players to test their knowledge in differe
 
 <h2>User Experience </h2>
 
-- As a website developer, I'd like to: <br> <br>
+- As a website developer, I'd like to: <br>
   1- Develop an online quiz  that is visually appealing from the user’s first visit so they are intrigued to explore and play the game. <br>
   2- Develop an easy to navigate quiz and game for its users to play. <br>
   3- Develop a quiz that is both attractive and challenging for the user. <br> 
@@ -25,8 +25,8 @@ Triad Quiz is a quiz game that allows players to test their knowledge in differe
   2- Be able to check the Scores page. <br>
   3- Be able to challenge myself and improve on my scores.
 
-  <h2>Design</h2>
-  <h3>Website Structure</h3>
+<h2>Design</h2>
+<h3>Website Structure</h3>
   
 The Quiz Land is a seven page website that has been designed to look like an application in small devices.
 
@@ -157,6 +157,16 @@ There are three main colours used: (1 ) white rgba(255, 255, 255, 0.8), (2) yell
   - https://validator.w3.org/
   - https://jigsaw.w3.org/css-validator/
   - https://jshint.com/
+
+![](./src/images/images_read.me/js-validation-img.png)
+
+<h3>Jshint</h3>
+
+  All JavaScript files were validated through JSHint, presenting 32 warnings:
+
+  - let' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+  - template literal syntax' is only available in ES6 (use 'esversion: 6')..
+  - arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').
 
   Google Lighthouse was used to test Performance, Best Practices, Accessibility and SEO on both Desktop and Mobile devices.
 
