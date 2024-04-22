@@ -44,12 +44,12 @@ Contact Page <br>
 
 ![](./src/images/images_read.me/color-scheme.png)
 
-The main color scheme I chose for this project is a two-tone blue. The left side of the screen is lighter and the tone changes to a darker blue towards the right side of the screen. I chose a black color for the main container and the same blue as the background color when the user hovers over the quiz links as an interactive color.
+The main color scheme I chose for this project is a two-tone blue. The left side of the screen is lighter and the tone changes to a darker blue towards the right side of the screen. I chose a black color for the main container and the same blue as the background color when the user hovers over the quiz links as an interactive color. Green is the color used in the background color when the user gets the answer right and red is the color used in the background color when the user gets the answer wrong.
 
 <h2>Typography</h2>
 
   - The Inter, sans-serif is used as the main font for the website.
-  - Lexend Deca, sans-serif is used in the left-hand container information paragraph on the index page.
+  - Lexend Deca, sans-serif is used in the left-hand container information paragraph on the Homepage.
 
 <h2>Imagery</h2> 
 
