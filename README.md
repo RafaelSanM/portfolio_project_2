@@ -122,6 +122,28 @@ The main color scheme I chose for this project is a two-tone blue. The left side
 
 <h2>How To Play</h2>
 
+<h3>How to Start</h3>
+
+![](./src/images/images_read.me/howtoplay-img1.png)
+
+  - The player can choose a quiz to play from the menu by pressing one of the quiz buttons on the Homepage.
+
+<h3>The Game</h3>
+
+![](./src/images/images_read.me/howtoplay-img2.png)
+
+ - The player has 3 different quizzes in the game. For each quiz the user will see the question on the top center and 4 choices are available. The player then has to choose one of the choices and if the answer is right will win 10 points. While the game is going on, users can see the progress bar updating any time they answer a question.
+
+<h3>Right Answer</h3>
+
+![](./src/images/images_read.me/howtoplay-img3.png)
+
+  - When the user answers the question right the background color of their choice answer will turn green.
+
+![](./src/images/images_read.me/howtoplay-img4.png)
+
+  - When the user answers the question right the background color of their choice answer will turn red.
+
 <h2>Technologies Used</h2>
 
 <h3>Languages Used</h3>
